@@ -109,4 +109,5 @@ a:hover {
 
 .logout-button:hover {
     opacity: .85;
+    cursor: pointer;
 }

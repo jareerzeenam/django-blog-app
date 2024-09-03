@@ -27,7 +27,10 @@
       </a> | 
       <a href="{% url 'users:login' %}" title="Login">
         <span role='img' aria-label='Login'>🔐</span>
-      </a>
+      </a> | 
+      <a href="{% url 'posts:new-post' %}" title="New Post">
+        <span role='img' aria-label='New Post'>📝</span>
+      </a> | 
       <form class='logout' action="{% url 'users:logout' %}" method="post">
         {% csrf_token %}
         <button class="logout-button" title="Logout">
